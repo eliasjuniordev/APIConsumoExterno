@@ -8,16 +8,16 @@ namespace IntegraBrasilApi.Dtos
         [JsonPropertyName("CEP")]
         public string? CEP { get; set; }
         [JsonPropertyName("Estado")]
-        public string? state { get; set; }
+        public string? State { get; set; }
         [JsonPropertyName("Cidade")]
-        public string? city { get; set; }
+        public string? City { get; set; }
         [JsonPropertyName("Regiao")]
-        public string? neighborhood { get; set; }
+        public string? Neighborhood { get; set; }
 
         [JsonPropertyName("Rua")]
-        public string? street { get; set; }
+        public string? Street { get; set; }
         [JsonIgnore]
-        public string? service { get; set; }
+        public string? Service { get; set; }
        
       
     }

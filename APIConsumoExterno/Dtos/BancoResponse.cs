@@ -1,11 +1,17 @@
-﻿namespace IntegraBrasilApi.Dtos
+﻿using System.Text.Json.Serialization;
+
+namespace IntegraBrasilApi.Dtos
 {
     public class BancoResponse
     {
-        public string? Ispb { get; set; }
-        public string? NomeAbreviado { get; set; }
-        public string? Codigo { get; set; }
-        public string? NomeCompleto { get; set; }
+        [JsonPropertyName("Codigo")]
+        public string? ispb { get; set; }
+        [JsonPropertyName("Abreviatura")]
+        public string? name { get; set; }
+        [JsonPropertyName("CodigoBanco")]
+        public string? code { get; set; }
+        [JsonPropertyName("NomeCompleto")]
+        public string? fullName { get; set; }
 
     }
 }

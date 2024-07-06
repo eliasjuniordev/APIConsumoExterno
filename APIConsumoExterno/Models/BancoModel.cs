@@ -4,16 +4,9 @@ namespace IntegraBrasilApi.Models
 {
     public class BancoModel
     {
-        [JsonPropertyName("ispb")]
-        public string? Ispb;
-
-        [JsonPropertyName("name")]
-        public string? NomeAbreviado;
-
-        [JsonPropertyName("code")]
-        public int? Codigo;
-
-        [JsonPropertyName("fullName")]
-        public string? NomeCompleto;
+        public string? ispb { get; set; }
+        public string? name { get; set; }
+        public int? code { get; set; }
+        public string? fullName { get; set; }
     }
 }

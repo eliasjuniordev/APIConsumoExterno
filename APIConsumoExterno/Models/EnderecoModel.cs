@@ -6,7 +6,6 @@ namespace IntegraBrasilApi.Models
     {
         
         public string? cep { get; set; }
-     
         public string? state { get; set; }
         public string? city { get; set; }
         public string? neighborhood { get; set; }

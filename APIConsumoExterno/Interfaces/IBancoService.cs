@@ -1,6 +1,9 @@
-﻿namespace APIConsumoExterno.Interfaces
+﻿using IntegraBrasilApi.Dtos;
+
+namespace APIConsumoExterno.Interfaces
 {
-    public class IBancoService
+    public interface IBancoService
     {
+        Task<ResponseGenerico<List<BancoResponse>>> BuscarTodosBancos();
     }
 }
