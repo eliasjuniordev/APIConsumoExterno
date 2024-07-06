@@ -1,0 +1,21 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+using AutoMapper;
+using IntegraBrasilApi.Dtos;
+using IntegraBrasilApi.Models;
+using static System.Runtime.InteropServices.JavaScript.JSType;
+
+namespace IntegraBrasilApi.Mappings
+{
+    public class EnderecoMapping : Profile
+    {
+        public EnderecoMapping()
+        {
+            CreateMap(typeof(ResponseGenerico<>), typeof(ResponseGenerico<>));
+            CreateMap<EnderecoResponse, EnderecoModel>();
+            CreateMap<EnderecoModel, EnderecoResponse>();
+        }
+    }
+}
