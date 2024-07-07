@@ -1,7 +1,7 @@
 ﻿using System.Dynamic;
 using System.Net;
 
-namespace IntegraBrasilApi.Dtos
+namespace APIConsumoExterno.Negocio.Dtos
 {
     public class ResponseGenerico<T> where T : class
     {

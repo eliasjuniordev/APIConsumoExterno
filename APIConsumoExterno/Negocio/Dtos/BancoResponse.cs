@@ -1,6 +1,6 @@
 ﻿using System.Text.Json.Serialization;
 
-namespace IntegraBrasilApi.Dtos
+namespace APIConsumoExterno.Negocio.Dtos
 {
     public class BancoResponse
     {

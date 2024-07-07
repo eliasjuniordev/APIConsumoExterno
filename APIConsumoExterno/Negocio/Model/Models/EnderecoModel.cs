@@ -1,10 +1,10 @@
 ﻿using System.Text.Json.Serialization;
 
-namespace IntegraBrasilApi.Models
+namespace APIConsumoExterno.Negocio.Model.Models
 {
     public class EnderecoModel
     {
-        
+
         public string? cep { get; set; }
         public string? state { get; set; }
         public string? city { get; set; }

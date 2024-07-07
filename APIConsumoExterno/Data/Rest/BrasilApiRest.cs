@@ -1,11 +1,11 @@
-﻿using IntegraBrasilApi.Dtos;
-using IntegraBrasilApi.Interfaces;
-using IntegraBrasilApi.Models;
+﻿using APIConsumoExterno.Negocio.Dtos;
+using APIConsumoExterno.Negocio.Interfaces;
+using APIConsumoExterno.Negocio.Model.Models;
 using System.Dynamic;
 using System.Runtime.ConstrainedExecution;
 using System.Text.Json;
 
-namespace IntegraBrasilApi.Rest
+namespace APIConsumoExterno.Data.Rest
 {
     public class BrasilApiRest : IBrasilApi
     {
@@ -64,7 +64,7 @@ namespace IntegraBrasilApi.Rest
             return response;
         }
 
-        public async Task<ResponseGenerico<BancoModel>>BuscarBanco(int codigoBanco)
+        public async Task<ResponseGenerico<BancoModel>> BuscarBanco(int codigoBanco)
         {
             var request = new HttpRequestMessage(HttpMethod.Get, $"https://brasilapi.com.br/api/banks/v1/{codigoBanco}");
             var response = new ResponseGenerico<BancoModel>();

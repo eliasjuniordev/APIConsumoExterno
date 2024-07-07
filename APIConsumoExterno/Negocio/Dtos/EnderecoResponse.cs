@@ -1,7 +1,7 @@
 ﻿
 using System.Text.Json.Serialization;
 
-namespace IntegraBrasilApi.Dtos
+namespace APIConsumoExterno.Negocio.Dtos
 {
     public class EnderecoResponse
     {
@@ -18,7 +18,7 @@ namespace IntegraBrasilApi.Dtos
         public string? Street { get; set; }
         [JsonIgnore]
         public string? Service { get; set; }
-       
-      
+
+
     }
 }

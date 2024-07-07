@@ -1,6 +1,6 @@
-﻿using AutoMapper;
-using IntegraBrasilApi.Dtos;
-using IntegraBrasilApi.Interfaces;
+﻿using APIConsumoExterno.Negocio.Dtos;
+using APIConsumoExterno.Negocio.Interfaces;
+using AutoMapper;
 
 namespace IntegraBrasilApi.Services
 {

@@ -1,6 +1,6 @@
-﻿using IntegraBrasilApi.Dtos;
+﻿using APIConsumoExterno.Negocio.Dtos;
 
-namespace APIConsumoExterno.Interfaces
+namespace APIConsumoExterno.Negocio.Interfaces
 {
     public interface IBancoService
     {

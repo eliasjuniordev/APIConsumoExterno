@@ -1,6 +1,6 @@
 ﻿using System.Text.Json.Serialization;
 
-namespace IntegraBrasilApi.Models
+namespace APIConsumoExterno.Negocio.Model.Models
 {
     public class BancoModel
     {

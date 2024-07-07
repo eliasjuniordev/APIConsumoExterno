@@ -1,6 +1,6 @@
-﻿using IntegraBrasilApi.Dtos;
+﻿using APIConsumoExterno.Negocio.Dtos;
 
-namespace IntegraBrasilApi.Interfaces
+namespace APIConsumoExterno.Negocio.Interfaces
 {
     public interface IEnderecoService
     {

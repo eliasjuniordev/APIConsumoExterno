@@ -1,5 +1,5 @@
 ﻿using System.Net;
-using IntegraBrasilApi.Interfaces;
+using APIConsumoExterno.Negocio.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 
 namespace IntegraBrasilApi.controllers

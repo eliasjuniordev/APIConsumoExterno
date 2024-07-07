@@ -1,8 +1,8 @@
-﻿using AutoMapper;
-using IntegraBrasilApi.Dtos;
-using IntegraBrasilApi.Models;
+﻿using APIConsumoExterno.Negocio.Dtos;
+using APIConsumoExterno.Negocio.Model.Models;
+using AutoMapper;
 
-namespace IntegraBrasilApi.Mappings
+namespace APIConsumoExterno.Data.Mappings.Mappings
 {
     public class BancoMapping : Profile
     {

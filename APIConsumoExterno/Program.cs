@@ -1,7 +1,6 @@
-using APIConsumoExterno.Interfaces;
-using IntegraBrasilApi.Interfaces;
-using IntegraBrasilApi.Mappings;
-using IntegraBrasilApi.Rest;
+using APIConsumoExterno.Data.Mappings.Mappings;
+using APIConsumoExterno.Data.Rest;
+using APIConsumoExterno.Negocio.Interfaces;
 using IntegraBrasilApi.Services;
 
 var builder = WebApplication.CreateBuilder(args);

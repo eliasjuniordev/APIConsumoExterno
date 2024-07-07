@@ -1,10 +1,6 @@
-﻿using System.Diagnostics;
-using System.Net;
-using APIConsumoExterno.Interfaces;
-using IntegraBrasilApi.Interfaces;
-using IntegraBrasilApi.Services;
+﻿using APIConsumoExterno.Negocio.Interfaces;
 using Microsoft.AspNetCore.Mvc;
-using Swashbuckle.AspNetCore.Annotations;
+using System.Net;
 
 namespace IntegraBrasilApi.controllers
 {

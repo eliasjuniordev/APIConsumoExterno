@@ -1,7 +1,7 @@
-﻿using IntegraBrasilApi.Dtos;
-using IntegraBrasilApi.Models;
+﻿using APIConsumoExterno.Negocio.Dtos;
+using APIConsumoExterno.Negocio.Model.Models;
 
-namespace IntegraBrasilApi.Interfaces
+namespace APIConsumoExterno.Negocio.Interfaces
 {
     public interface IBrasilApi
     {
