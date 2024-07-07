@@ -16,7 +16,7 @@ namespace IntegraBrasilApi.controllers
             _enderecoService = enderecoService;
         }
         /// <summary>
-        /// Busca todos endereços cadastrados CEP sistema Nacional3
+        /// Busca todos endereços cadastrados CEP sistema Nacional
         /// </summary>
         /// <returns>200 Sucesso</returns>
         /// <returns>404 Erro</returns>
