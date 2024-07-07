@@ -15,7 +15,11 @@ namespace IntegraBrasilApi.controllers
         {
             _enderecoService = enderecoService;
         }
-
+        /// <summary>
+        /// Busca todos endereços cadastrados CEP sistema Nacional3
+        /// </summary>
+        /// <returns>200 Sucesso</returns>
+        /// <returns>404 Erro</returns>
         [HttpGet("{cep}")]
         public async Task<IActionResult> BuscarEndereco([FromRoute] string cep)
         {

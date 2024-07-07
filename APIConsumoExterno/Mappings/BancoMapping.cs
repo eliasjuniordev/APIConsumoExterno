@@ -11,6 +11,9 @@ namespace IntegraBrasilApi.Mappings
             CreateMap<BancoModel, BancoResponse>();
             CreateMap<ResponseGenerico<List<BancoModel>>, ResponseGenerico<List<BancoResponse>>>()
                 .ForMember(dest => dest.DadosRetorno, opt => opt.MapFrom(src => src.DadosRetorno));
+            CreateMap(typeof(ResponseGenerico<>), typeof(ResponseGenerico<>));
+            CreateMap<BancoResponse, BancoModel>();
+            CreateMap<BancoModel, BancoResponse>();
         }
     }
 }
